@@ -1,7 +1,7 @@
-def bla(msg) {
-   println("Printing ${msg} in method BLA")
+def green(msg) {
+   println("\033[0;32mPrinting ${msg} in method GREEN\033[0m")
 }
 
-def foo(msg) {
-   println("Printing ${msg} in method FOO")
+def red(msg) {
+   println("\033[0;31mPrinting ${msg} in method RED\033[0m")
 }
