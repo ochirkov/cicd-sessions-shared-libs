@@ -1,3 +1,7 @@
-def call(msg) {
-   println("Printing ${msg} line in develop branch")
+def bla(msg) {
+   println("Printing ${msg} in method BLA")
+}
+
+def foo(msg) {
+   println("Printing ${msg} in method FOO")
 }
